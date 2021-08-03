@@ -27,7 +27,7 @@ class Talabat extends StatelessWidget {
                   style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
                 ),
                 SizedBox(
-                  width: 43,
+                  width: 44,
                 ),
                 Text(
                   price,
