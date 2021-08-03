@@ -19,37 +19,6 @@ class Talabat extends StatelessWidget {
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
           ),
-          // Row(
-          //   children: [
-          //     Column(
-          //       crossAxisAlignment: CrossAxisAlignment.start,
-          //       children: [
-          //         Text(
-          //           elgallaStreet,
-          //           style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
-          //         ),
-          //         Text(
-          //           review,
-          //           style: TextStyle(color: grey),
-          //         )
-          //       ],
-          //     ),
-          //     SizedBox(width: 20,),
-          //     Column(
-          //       crossAxisAlignment: CrossAxisAlignment.start,
-          //       children: [
-          //         Text(
-          //           price,
-          //           style: TextStyle(color: grey),
-          //         ),
-          //         Text(
-          //          pastaAndFlaver,
-          //           style: TextStyle(color: grey),
-          //         ),
-          //       ],
-          //     )
-          //   ],
-          // )
           Expanded(
             child: Row(
               children: [
@@ -73,7 +42,6 @@ class Talabat extends StatelessWidget {
               style: TextStyle(color: grey),
             ),
           ),
-
           Expanded(
             child: Center(
                 child: Text(
@@ -88,7 +56,7 @@ class Talabat extends StatelessWidget {
             child: Center(
                 child: Text(
               confirm,
-              style: TextStyle(color: whiteColor,fontSize: 15),
+              style: TextStyle(color: whiteColor, fontSize: 15),
             )),
             decoration: BoxDecoration(
                 color: lightPurple, borderRadius: BorderRadius.circular(5)),

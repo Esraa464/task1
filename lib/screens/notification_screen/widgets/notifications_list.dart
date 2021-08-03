@@ -18,7 +18,6 @@ class NotificationsList extends StatelessWidget {
                       height: 20,
                       color: Colors.deepPurple,
                     ),
-
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.only(top: 5),
@@ -40,7 +39,10 @@ class NotificationsList extends StatelessWidget {
                 ),
               ),
             ),
-            Container(height: 1.5, color: Colors.grey[300],),
+            Container(
+              height: 1.5,
+              color: Colors.grey[300],
+            ),
             Expanded(
               child: Container(
                 padding: EdgeInsets.only(right: 30, left: 15),
@@ -51,7 +53,6 @@ class NotificationsList extends StatelessWidget {
                       height: 20,
                       color: Colors.deepPurple,
                     ),
-
                     Expanded(
                       child: Padding(
                         padding: const EdgeInsets.only(top: 5),
@@ -73,9 +74,7 @@ class NotificationsList extends StatelessWidget {
                 ),
               ),
             ),
-          ], 
+          ],
         ));
   }
-
-
 }

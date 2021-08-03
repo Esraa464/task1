@@ -14,8 +14,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
           scaffoldBackgroundColor: whiteColor,
-          appBarTheme: AppBarTheme(color: whiteColor, elevation: 0.0,centerTitle: true)),
-      home:NotificationsScreen(),
+          appBarTheme: AppBarTheme(
+              color: whiteColor, elevation: 0.0, centerTitle: true)),
+      home: NotificationsScreen(),
     );
   }
 }
