@@ -3,7 +3,7 @@ final talabatPayment = 'Talabat payment';
 final superKoshary = 'Super Koshary Godoo';
 final elgallaStreet = 'EL-Galla Street';
 final price = 'Price: 30EGP';
-final review = 'Review: ' ;
+final review = 'Review:' ;
 final veryGood='Very good';
 final pastaAndLiver= 'Pasta and liver';
 

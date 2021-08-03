@@ -16,7 +16,7 @@ class Talabat extends StatelessWidget {
           Expanded(
             child: Text(
               superKoshary,
-              style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 18, fontWeight: FontWeight.w900),
             ),
           ),
           Expanded(
@@ -24,10 +24,10 @@ class Talabat extends StatelessWidget {
               children: [
                 Text(
                   elgallaStreet,
-                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700),
                 ),
                 SizedBox(
-                  width: 80,
+                  width: 43,
                 ),
                 Text(
                   price,
@@ -52,7 +52,7 @@ class Talabat extends StatelessWidget {
                   style: TextStyle(color: grey),
                 ),
                 SizedBox(
-                  width:46,
+                  width:10,
                 ),
                 Text(
                   pastaAndLiver,
@@ -65,7 +65,7 @@ class Talabat extends StatelessWidget {
             child: Center(
                 child: Text(
               data,
-              style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 15, fontWeight: FontWeight.w900),
             )),
           ),
           Container(
