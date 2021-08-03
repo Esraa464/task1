@@ -24,7 +24,7 @@ class Talabat extends StatelessWidget {
               children: [
                 Text(
                   elgallaStreet,
-                  style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+                  style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
                   width: 80,
@@ -37,9 +37,28 @@ class Talabat extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: Text(
-              review,
-              style: TextStyle(color: grey),
+            child: Row(
+              children: [
+                Text(
+                  review,
+                  style: TextStyle(color: grey),
+                ),
+               Padding(
+                 padding: const EdgeInsets.all(2.0),
+                 child: Image.network('https://cdn.imgbin.com/7/14/12/imgbin-smiley-computer-icons-emoticon-barricades-smiley-emoji-qqKz2sQCJN3FcMevpJsLFNcLB.jpg',height: 15,),
+               ),
+                Text(
+                  veryGood,
+                  style: TextStyle(color: grey),
+                ),
+                SizedBox(
+                  width:46,
+                ),
+                Text(
+                  pastaAndLiver,
+                  style: TextStyle(color: grey),
+                ),
+              ],
             ),
           ),
           Expanded(
