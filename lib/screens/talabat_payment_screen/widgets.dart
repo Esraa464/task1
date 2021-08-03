@@ -8,7 +8,6 @@ class Talabat extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20),
-
       height: 153,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -20,8 +19,39 @@ class Talabat extends StatelessWidget {
               style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
           ),
+          // Row(
+          //   children: [
+          //     Column(
+          //       crossAxisAlignment: CrossAxisAlignment.start,
+          //       children: [
+          //         Text(
+          //           elgallaStreet,
+          //           style: TextStyle(fontSize: 12, fontWeight: FontWeight.bold),
+          //         ),
+          //         Text(
+          //           review,
+          //           style: TextStyle(color: grey),
+          //         )
+          //       ],
+          //     ),
+          //     SizedBox(width: 20,),
+          //     Column(
+          //       crossAxisAlignment: CrossAxisAlignment.start,
+          //       children: [
+          //         Text(
+          //           price,
+          //           style: TextStyle(color: grey),
+          //         ),
+          //         Text(
+          //          pastaAndFlaver,
+          //           style: TextStyle(color: grey),
+          //         ),
+          //       ],
+          //     )
+          //   ],
+          // )
           Expanded(
-            child: Row( 
+            child: Row(
               children: [
                 Text(
                   elgallaStreet,
@@ -38,11 +68,12 @@ class Talabat extends StatelessWidget {
             ),
           ),
           Expanded(
-            child: Text( 
+            child: Text(
               review,
               style: TextStyle(color: grey),
             ),
           ),
+
           Expanded(
             child: Center(
                 child: Text(
@@ -50,7 +81,6 @@ class Talabat extends StatelessWidget {
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
             )),
           ),
-
           Container(
             margin: EdgeInsets.symmetric(vertical: 10),
             height: 30,
@@ -58,7 +88,7 @@ class Talabat extends StatelessWidget {
             child: Center(
                 child: Text(
               confirm,
-              style: TextStyle(color: whiteColor),
+              style: TextStyle(color: whiteColor,fontSize: 15),
             )),
             decoration: BoxDecoration(
                 color: lightPurple, borderRadius: BorderRadius.circular(5)),
