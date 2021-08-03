@@ -8,7 +8,7 @@ class Talabat extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.symmetric(horizontal: 20),
-      //  padding: EdgeInsets.symmetric(vertical: 20),
+
       height: 153,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -50,13 +50,9 @@ class Talabat extends StatelessWidget {
               style: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
             )),
           ),
-          // SizedBox(
-          //   height: 10,
-          // ),
+
           Container(
             margin: EdgeInsets.symmetric(vertical: 10),
-            //  margin: EdgeInsets.symmetric(vertical: 15),
-            // margin: EdgeInsets.symmetric(vertical: 10,horizontal: 10),
             height: 30,
             width: double.infinity,
             child: Center(
