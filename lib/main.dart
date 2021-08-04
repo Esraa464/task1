@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           scaffoldBackgroundColor: whiteColor,
           appBarTheme: AppBarTheme(
               color: whiteColor, elevation: 0.0, centerTitle: true)),
-      home: TalabatPayment(),
+      home: NotificationsScreen(),
     );
   }
 }
